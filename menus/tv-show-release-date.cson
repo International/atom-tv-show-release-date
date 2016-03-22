@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle tv-show-release-date'
+      'command': 'tv-show-release-date:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'tv-show-release-date'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'tv-show-release-date:toggle'
+        }
+      ]
+    ]
+  }
+]

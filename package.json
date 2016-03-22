@@ -1,0 +1,19 @@
+{
+  "name": "tv-show-release-date",
+  "main": "./lib/tv-show-release-date",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "tv-show-release-date:toggle"
+  },
+  "repository": "https://github.com/International/atom-tv-show-release-date",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "2.0.3"
+  }
+}
